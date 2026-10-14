@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "PVprotech Customer",
+    "slug": "pvprotech-customer-app",
+    "scheme": "pvprotechcustomer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3bc27e90-efe3-4c29-8b0c-2cbc008def73"
+      }
+    },
+    "android": {
+      "package": "com.vighneshkhondre.pvprotechcustomerapp"
+    }
+  }
+}
