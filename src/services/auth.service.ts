@@ -52,3 +52,13 @@ export async function fetchClientProfile(clientId: string) {
   );
   return response.data;
 }
+
+
+export async function resendOtp(clientId: string) {
+  const response = await api.post('/auth/resend-otp', {
+    clientId,
+  });
+
+  return response.data;
+}
+
